@@ -3,6 +3,14 @@ import "../Styles/Navbar.css";
 import logo from "./logo.png";
 import { Link } from "react-router-dom";
 
+/**
+ * Represents the Navbar component of the application.
+ *
+ * This component renders a navigation bar with links to various categories and buttons for user interaction.
+ *
+ * @function
+ * @returns {JSX.Element} - The rendered JSX element representing the navbar.
+ */
 function Navbar() 
 {
   return (

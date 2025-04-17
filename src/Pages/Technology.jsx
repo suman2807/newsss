@@ -7,6 +7,13 @@ function Technology()
 {
     const [val, setVal] = useState([]);
 
+    /**
+     * Asynchronously fetches data from an API and updates the application state with the fetched articles.
+     *
+     * @async
+     * @function getData
+     * @throws {Error} Throws an error if the fetch request fails or if the response is not in JSON format.
+     */
     async function getData() 
     {
         let res = await fetch(API_URL);

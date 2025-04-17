@@ -1,6 +1,11 @@
 import "../Styles/ErrorPage.css";
 import gif from "../Components/error.gif";
 
+/**
+ * A functional component that renders an error page with a heading, subheading, and an animated GIF.
+ *
+ * @returns {JSX.Element} - The JSX element representing the error page.
+ */
 function ErrorPage() 
 {
   return (

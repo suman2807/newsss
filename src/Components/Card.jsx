@@ -1,6 +1,18 @@
 import "../Styles/App.css";
 import "../Styles/Card.css";
 
+/**
+ * React component to display news card.
+ *
+ * @param {Object} props - Properties for the Card component.
+ * @prop {string} props.image - URL of the image to be displayed.
+ * @prop {string} props.title - Title of the news item, truncated at 230 characters if longer.
+ * @prop {string} props.description - Description of the news item. If longer than 5 characters, it will be sliced to 180 characters.
+ * @prop {string} props.source - Source of the news item.
+ * @prop {string} props.date - Date of the news item, formatted to show only the first 10 characters.
+ * @prop {string} props.url - URL link to the full article.
+ * @returns {JSX.Element} JSX representing a news card component.
+ */
 function Card(props) 
 {
     return (
