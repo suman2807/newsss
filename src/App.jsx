@@ -9,6 +9,14 @@ import ErrorPage from "./Pages/ErrorPage.jsx";
 import Navbar from "./Components/Navbar.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+/**
+ * Main React component that renders the application.
+ *
+ * This component sets up the routing for different pages using React Router. It includes a `BrowserRouter` to handle client-side routing without a full page reload.
+ * The component renders a `Navbar` at the top and uses a `Routes` component with multiple `Route` elements to define different paths and their corresponding components.
+ *
+ * @returns {JSX.Element} - The JSX representation of the App component.
+ */
 function App() 
 {
   return (
